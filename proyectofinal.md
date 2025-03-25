@@ -497,14 +497,14 @@ Se verificaron los flujos clave:
 📌 **Evidencia:**
 
 - **Video general** mostrando el proceso de login, navegación y reproducción de videos.
-- (evidencias.md)
+📎 [Ver evidencias del proyecto](evidencias.md)
   
 <video controls src="videos/login_navega_reproduccion.mp4" title="Title"></video>
 - **Video** mostrando pausa del reproductor durante llamada entrante.
-- (evidencias.md)
+📎 [Ver evidencias del proyecto](evidencias.md)
   
   <video controls src="videos/llamada_entrante.mp4" title="Title"></video>
-  -(evidencias.md) 
+📎 [Ver evidencias del proyecto](evidencias.md)
 
 ---
 
@@ -521,9 +521,11 @@ Se analizaron diferencias en la experiencia del usuario entre la web y la app m�
 
 📌 **Evidencia:**
 
+📎 [Ver evidencias del proyecto](evidencias.md)
 <video controls src="videos/progreso_cuenta_web.mp4" title="Title"></video>
 (web)
 
+📎 [Ver evidencias del proyecto](evidencias.md)
 <video controls src="videos/progreso_cuenta_movil.mp4" title=""></video>
 (movil)
 
