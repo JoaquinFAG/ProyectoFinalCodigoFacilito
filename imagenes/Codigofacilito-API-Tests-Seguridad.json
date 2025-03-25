@@ -1,0 +1,193 @@
+{
+    "info": {
+      "_postman_id": "unique-id-here",
+      "name": "Codigofacilito-API-Tests-Seguridad",
+      "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+      {
+        "name": "Register User",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"first_name\": \"John\",\n  \"last_name\": \"Doe\",\n  \"email\": \"johndoe@example.com\",\n  \"pin\": \"1234\"\n}"
+          },
+          "url": "{{base_url}}register"
+        },
+        "event": [
+          {
+            "listen": "test",
+            "script": {
+              "exec": [
+                "pm.test(\"Status code is 201\", function () {",
+                "    pm.response.to.have.status(201);",
+                "});",
+                "",
+                "pm.test(\"Response has token\", function () {",
+                "    const jsonData = pm.response.json();",
+                "    pm.expect(jsonData.token).to.be.a('string');",
+                "});"
+              ],
+              "type": "text/javascript"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Login User",
+        "request": {
+          "method": "POST",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"account_number\": 12345,\n  \"pin\": \"1234\"\n}"
+          },
+          "url": "{{base_url}}login"
+        },
+        "event": [
+          {
+            "listen": "test",
+            "script": {
+              "exec": [
+                "pm.test(\"Status code is 200\", function () {",
+                "    pm.response.to.have.status(200);",
+                "});",
+                "",
+                "pm.test(\"Response has token\", function () {",
+                "    const jsonData = pm.response.json();",
+                "    pm.expect(jsonData.token).to.be.a('string');",
+                "});",
+                "",
+                "// Guardar el token JWT en una variable de entorno",
+                "pm.environment.set(\"auth_token\", pm.response.json().token);"
+              ],
+              "type": "text/javascript"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Get All Accounts - Security Test",
+        "request": {
+          "method": "GET",
+          "header": [
+            {
+              "key": "Authorization",
+              "value": "Bearer {{auth_token}}"
+            }
+          ],
+          "url": "{{base_url}}accounts"
+        },
+        "event": [
+          {
+            "listen": "test",
+            "script": {
+              "exec": [
+                "pm.test(\"Validar acceso autorizado\", function () {",
+                "    pm.response.to.have.status(200);",
+                "});",
+                "",
+                "pm.test(\"No exponer datos sensibles\", function () {",
+                "    const jsonData = pm.response.json();",
+                "    pm.expect(jsonData[0]).to.not.have.property(\"password\");",
+                "});"
+              ],
+              "type": "text/javascript"
+            }
+          }
+        ]
+      },
+      {
+        "name": "SQL Injection Test",
+        "request": {
+          "method": "PUT",
+          "header": [
+            {
+              "key": "Content-Type",
+              "value": "application/json"
+            },
+            {
+              "key": "Authorization",
+              "value": "Bearer {{auth_token}}"
+            }
+          ],
+          "body": {
+            "mode": "raw",
+            "raw": "{\n  \"first_name\": \"John'; DROP TABLE users; --\",\n  \"last_name\": \"Doe\"\n}"
+          },
+          "url": "{{base_url}}users/{{user_id}}"
+        },
+        "event": [
+          {
+            "listen": "test",
+            "script": {
+              "exec": [
+                "pm.test(\"Rechazar inyección SQL\", function () {",
+                "    pm.expect(pm.response.code).to.be.oneOf([400, 422]);",
+                "});"
+              ],
+              "type": "text/javascript"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Access Without Token",
+        "request": {
+          "method": "GET",
+          "url": "{{base_url}}accounts"
+        },
+        "event": [
+          {
+            "listen": "test",
+            "script": {
+              "exec": [
+                "pm.test(\"Validar respuesta 401 sin token\", function () {",
+                "    pm.response.to.have.status(401);",
+                "});"
+              ],
+              "type": "text/javascript"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Invalid Token Test",
+        "request": {
+          "method": "GET",
+          "header": [
+            {
+              "key": "Authorization",
+              "value": "Bearer invalid_token"
+            }
+          ],
+          "url": "{{base_url}}accounts"
+        },
+        "event": [
+          {
+            "listen": "test",
+            "script": {
+              "exec": [
+                "pm.test(\"Validar respuesta 401 con token inválido\", function () {",
+                "    pm.response.to.have.status(401);",
+                "});"
+              ],
+              "type": "text/javascript"
+            }
+          }
+        ]
+      }
+    ]
+  }
