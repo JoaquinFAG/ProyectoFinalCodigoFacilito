@@ -503,9 +503,6 @@ Se verificaron los flujos clave:
 - **Video** mostrando pausa del reproductor durante llamada entrante.
 📎 [Ver evidencias del proyecto](evidencias.md)
   
-  <video controls src="videos/llamada_entrante.mp4" title="Title"></video>
-📎 [Ver evidencias del proyecto](evidencias.md)
-
 ---
 
 ### **3.2 Usabilidad**
