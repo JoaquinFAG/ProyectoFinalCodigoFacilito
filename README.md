@@ -74,5 +74,5 @@ Este es mi primer proyecto final en el mundo del QA Testing, y me entusiasma seg
 
 🎬 **Video de experiencia:**
 Este archivo es pesado, por lo que GitHub no permite previsualizarlo directamente.  
-📥 [Descargar Experiencia CodigoFacilito.mp4](Experiencia%20CodigoFacilito.mp4)
+📥 (Experiencia%20CodigoFacilito.mp4)](https://drive.google.com/file/d/19NGawD1kl4QcE-8wuY7bUqF5L3PoVsE6/view?usp=drive_link)
 
