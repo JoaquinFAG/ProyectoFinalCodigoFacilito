@@ -71,3 +71,8 @@ Continuar aprendiendo sobre testing de ciberseguridad.
 Este es mi primer proyecto final en el mundo del QA Testing, y me entusiasma seguir aprendiendo. Si tienes sugerencias o comentarios, no dudes en compartirlos. 😊🚀
 
 📧 Contacto: [joaquinfagundez1528@gmail.com / https://www.linkedin.com/in/joaquin-fagundez-a90a96354/]
+
+🎬 **Video de experiencia:**
+Este archivo es pesado, por lo que GitHub no permite previsualizarlo directamente.  
+📥 [Descargar Experiencia CodigoFacilito.mp4](Experiencia%20CodigoFacilito.mp4)
+
