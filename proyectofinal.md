@@ -497,12 +497,14 @@ Se verificaron los flujos clave:
 📌 **Evidencia:**
 
 - **Video general** mostrando el proceso de login, navegación y reproducción de videos.
+- (evidencias.md)
   
 <video controls src="videos/login_navega_reproduccion.mp4" title="Title"></video>
-- **Video** mostrando pausa del reproductor durante llamada entrante. 
+- **Video** mostrando pausa del reproductor durante llamada entrante.
+- (evidencias.md)
   
   <video controls src="videos/llamada_entrante.mp4" title="Title"></video>
-- 
+  -(evidencias.md) 
 
 ---
 
