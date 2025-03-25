@@ -1,0 +1,215 @@
+{
+  "id": "82f639bb-7b1b-412c-b0c4-5c55961ebffc",
+  "version": "2.0",
+  "name": "Proyecto Codigo Facilito",
+  "url": "https://codigofacilito.com/",
+  "tests": [{
+    "id": "4406489a-bba9-487e-b949-9d772909b1ac",
+    "name": "LoginUserPass",
+    "commands": [{
+      "id": "c9a0ecc8-6d82-4522-8f8b-a20e9dcbe7b1",
+      "comment": "",
+      "command": "open",
+      "target": "https://codigofacilito.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "67ca9f8f-0b3e-44c1-a85c-b6d73b2a4826",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x944",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49c04787-4d22-469c-b175-da0192d35728",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Iniciar sesión",
+      "targets": [
+        ["linkText=Iniciar sesión", "linkText"],
+        ["css=.f-right-space-small", "css:finder"],
+        ["xpath=(//a[contains(text(),'Iniciar sesión')])[2]", "xpath:link"],
+        ["xpath=//div[@id='showMenu']/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/users/sign_in')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a07059b9-1acd-41aa-93f9-8dd80aa05cd9",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign_in_email_field",
+      "targets": [
+        ["id=sign_in_email_field", "id"],
+        ["name=user[email]", "name"],
+        ["css=#sign_in_email_field", "css:finder"],
+        ["xpath=//input[@id='sign_in_email_field']", "xpath:attributes"],
+        ["xpath=//form[@id='user_log_in']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff1e144d-1e3e-46ff-a79c-0d6c8e87e89f",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign_in_email_field",
+      "targets": [
+        ["id=sign_in_email_field", "id"],
+        ["name=user[email]", "name"],
+        ["css=#sign_in_email_field", "css:finder"],
+        ["xpath=//input[@id='sign_in_email_field']", "xpath:attributes"],
+        ["xpath=//form[@id='user_log_in']/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "joaquinfagundez1528@gmail.com"
+    }, {
+      "id": "49db5428-0fd0-44d3-bf7d-acdf8b7dc89c",
+      "comment": "",
+      "command": "click",
+      "target": "id=sign_in_password_field",
+      "targets": [
+        ["id=sign_in_password_field", "id"],
+        ["name=user[password]", "name"],
+        ["css=#sign_in_password_field", "css:finder"],
+        ["xpath=//input[@id='sign_in_password_field']", "xpath:attributes"],
+        ["xpath=//form[@id='user_log_in']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3035e709-000b-4708-a5a0-5de01817bc3b",
+      "comment": "",
+      "command": "type",
+      "target": "id=sign_in_password_field",
+      "targets": [
+        ["id=sign_in_password_field", "id"],
+        ["name=user[password]", "name"],
+        ["css=#sign_in_password_field", "css:finder"],
+        ["xpath=//input[@id='sign_in_password_field']", "xpath:attributes"],
+        ["xpath=//form[@id='user_log_in']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "maxi47998170"
+    }, {
+      "id": "798ee003-2e33-491e-a8a4-79e2c2c52f51",
+      "comment": "",
+      "command": "click",
+      "target": "css=.f-text-18",
+      "targets": [
+        ["css=.f-text-18", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='user_log_in']/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Iniciar sesión')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e524ad25-2ed1-439f-b74b-9b10039c8b3e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.chevron > svg",
+      "targets": [
+        ["css=.chevron > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "885a824f-eb09-47fc-894e-0a2eb66c5ef4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-header",
+      "targets": [
+        ["css=.btn-header", "css:finder"],
+        ["xpath=//div[@id='menu-links-navigation']/ul/a[3]/li/span", "xpath:idRelative"],
+        ["xpath=//li/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Salir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "e4565afa-569a-4178-9a17-02e3377c162c",
+    "name": "LoginGoogleAccount",
+    "commands": [{
+      "id": "355252f0-26e0-4ffd-8117-0d43b92848fa",
+      "comment": "",
+      "command": "open",
+      "target": "https://codigofacilito.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ad7bed1-3584-4e6a-b467-9f9f0eabc554",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "974x944",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2521857-20c3-46eb-b2fd-18d074345c55",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Iniciar sesión",
+      "targets": [
+        ["linkText=Iniciar sesión", "linkText"],
+        ["css=.f-right-space-small", "css:finder"],
+        ["xpath=(//a[contains(text(),'Iniciar sesión')])[2]", "xpath:link"],
+        ["xpath=//div[@id='showMenu']/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/users/sign_in')])[2]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8d7b117-2300-4191-9769-78406a2e81d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.white-btn > .col-xs",
+      "targets": [
+        ["css=.white-btn > .col-xs", "css:finder"],
+        ["xpath=//section[@id='main-section']/main/div/div/div/a[2]/span", "xpath:idRelative"],
+        ["xpath=//a[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Ingresar con Google')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8189fdfe-29dc-4e60-8621-80c5fbe885ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aZvCDf:nth-child(1) .pGzURd",
+      "targets": [
+        ["css=.aZvCDf:nth-child(1) .pGzURd", "css:finder"],
+        ["xpath=//body[@id='yDmH0d']/div/div/div[2]/div/div/div[2]/div/div/div/form/span/section/div/div/div/div/ul/li/div/div/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//li/div/div/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9293c5a5-7f02-4242-947b-e7cfff1f7756",
+      "comment": "",
+      "command": "click",
+      "target": "css=.chevron > svg",
+      "targets": [
+        ["css=.chevron > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "3979dcee-5862-4f7d-9d60-3af1f008e2cf",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(6) > .rb-bold",
+      "targets": [
+        ["css=a:nth-child(6) > .rb-bold", "css:finder"],
+        ["xpath=//div[@id='menu-links-navigation']/ul/a[3]/li", "xpath:idRelative"],
+        ["xpath=//a[3]/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Salir')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2b09385c-70d5-4760-966d-4aeeeeaf4b50",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4406489a-bba9-487e-b949-9d772909b1ac"]
+  }],
+  "urls": ["https://codigofacilito.com/"],
+  "plugins": []
+}
