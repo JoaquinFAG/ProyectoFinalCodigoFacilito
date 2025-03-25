@@ -6,7 +6,7 @@ Este documento contiene enlaces a los videos utilizados como evidencia durante l
 ## 📱 Aplicación Móvil
 
 ### 🔹 Login, navegación y reproducción de videos
-📥 [Ver video - login cuenta Google] https://drive.google.com/file/d/1_lUZZZWseCd4QpokRZjA5hdjVd_EuC46/view?usp=sharing
+📥 [Ver video - login cuenta Google] https://drive.google.com/file/d/1_lUZZZWseCd4QpokRZjA5hdjVd_EuC46/view?usp=sharing <br>
 📥 [Ver video - login cuenta con credenciales] https://drive.google.com/file/d/1I6ar4L22ZRZ34XVBFj9qArOZu2VQP-fE/view?usp=sharing
 📥 [Ver video - flujo en la web] https://drive.google.com/file/d/1nnMse06QDkrqYZV0Czbz3LzAxfQFoquD/view?usp=sharing
 
