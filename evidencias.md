@@ -3,58 +3,24 @@
 Este documento contiene enlaces a los videos utilizados como evidencia durante las pruebas del proyecto final realizado sobre la plataforma **Código Facilito**.
 
 ---
-
-## 🖥️ Web
-
-### 🔹 Login, navegación y reproducción de videos
-📥 [Ver video - flujo en la web](videos/login_navega_reproduccion.mp4)
-
-### 🔹 Diferencias en "Mi Progreso" y "Mi Cuenta"
-📥 [Ver video - Mi Progreso y Cuenta en la web](videos/progreso_cuenta_web.mp4)
-
----
-
 ## 📱 Aplicación Móvil
 
 ### 🔹 Login, navegación y reproducción de videos
-📥 [Ver video - flujo en la app móvil](videos/login_navega_reproduccion.mp4)
+📥 [Ver video - login cuenta Google] https://drive.google.com/file/d/1_lUZZZWseCd4QpokRZjA5hdjVd_EuC46/view?usp=sharing
+📥 [Ver video - login cuenta con credenciales] https://drive.google.com/file/d/1I6ar4L22ZRZ34XVBFj9qArOZu2VQP-fE/view?usp=sharing
+📥 [Ver video - flujo en la web] https://drive.google.com/file/d/1nnMse06QDkrqYZV0Czbz3LzAxfQFoquD/view?usp=sharing
+
+### 🔹 Diferencias en "Mi Progreso" y "Mi Cuenta"
+📥 [Ver video - Mi Progreso y Cuenta en la web] https://drive.google.com/file/d/14Wc6TfhSD50EPmzYVNha1GHw3xMyJWxD/view?usp=sharing
+📥 [Ver video - Mi Progreso y Cuenta en la movil] https://drive.google.com/file/d/1A-kcIfJxlFXZbmRF-Z2JgFZZYlO5nieY/view?usp=sharing
+
+---
 
 ### 🔹 Pausa del video ante llamada entrante
-📥 [Ver video - interrupción por llamada](videos/llamada_entrante.mp4)
-
-### 🔹 Diferencias en "Mi Progreso" y "Mi Cuenta" (app móvil)
-📥 [Ver video - Mi Progreso y Cuenta en la app móvil](videos/progreso_cuenta_movil.mp4)
+📥 [Ver video - interrupción por llamada] https://drive.google.com/file/d/1LuBzuzT-IN4b3zv1XTrlsvc3h0e9l4lm/view?usp=sharing
 
 ---
 
-## 📱 iOS - Falta de disponibilidad
-
-### 🔹 Simulación en iPhone 11 Pro Max
-📥 [Ver gif - App no disponible en iOS](videos/11promax.gif)
-
----
-
-## 🧪 Postman (API)
-
-### 🔹 Registro de usuario
-📥 [Ver imagen](imagenes/imagenes_Postman/registro_usuario_postman.png)
-
-### 🔹 Inicio de sesión
-📥 [Ver imagen](imagenes/imagenes_Postman/inicio_usuario_postman.png)
-
-### 🔹 Obtener cuentas
-📥 [Ver imagen](imagenes/imagenes_Postman/obtener_todas_las_cuentas_postman.png)
-
-### 🔹 Inyección SQL
-📥 [Ver imagen](imagenes/imagenes_Postman/inyeccion_SQL_postman.png)
-
-### 🔹 Acceso sin token
-📥 [Ver imagen](imagenes/imagenes_Postman/acceso_sin_TOKEN_postman.png)
-
-### 🔹 Token inválido
-📥 [Ver imagen](imagenes/imagenes_Postman/acceso_TOKEN_invalido_postman.png)
-
----
 
 > 📝 **Nota:** Debido a las limitaciones de GitHub, los archivos de video no se pueden visualizar directamente en el navegador. Se recomienda hacer clic en los enlaces para descargarlos y reproducirlos localmente.
 
