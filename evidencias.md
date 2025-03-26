@@ -51,7 +51,7 @@ La comunidad y soporte de Código Facilito fue muy útil a lo largo del proceso.
 
 📅 Ver video - Mi experiencia general usando Código Facilito📝 
 
-📝 Nota personal: Este proyecto marcó el inicio de mi camino como tester, y me siento orgulloso de compartirlo como mi primer trabajo subido a GitHub 🚀https://drive.google.com/file/d/19NGawD1kl4QcE-8wuY7bUqF5L3PoVsE6/view?usp=sharing
+📝 Nota personal: Este proyecto marcó el inicio de mi camino como tester, y me siento orgulloso de compartirlo como mi primer trabajo subido a GitHub 🚀https://drive.google.com/file/d/1PdosJu-wswxOGSKLJaTjhiJgVMotWfL1/view?usp=drivesdk
 
 > 📝 **Nota:** Debido a las limitaciones de GitHub, los archivos de video no se pueden visualizar directamente en el navegador. Se recomienda hacer clic en los enlaces para descargarlos y reproducirlos localmente.
 
