@@ -1,4 +1,4 @@
-![Mi banner](https://drive.google.com/file/d/184z2oKcfykbKy0dI4WMXGey0XM7_FF5o/view?usp=drivesdk)
+<img src="https://drive.google.com/file/d/184z2oKcfykbKy0dI4WMXGey0XM7_FF5o/view?usp=drivesdk" alt="Banner NyxKraken" width="600"/>
 
 # ProyectoFinalCodigoFacilito  
 E2E testing para Código Facilito: valida la experiencia completa del usuario (web+app+API) con casos reales.  
