@@ -1,4 +1,4 @@
-[Banner](https://drive.google.com/file/d/184z2oKcfykbKy0dI4WMXGey0XM7_FF5o/view?usp=drivesdk)
+![Mi banner](https://drive.google.com/file/d/184z2oKcfykbKy0dI4WMXGey0XM7_FF5o/view?usp=drivesdk)
 
 # ProyectoFinalCodigoFacilito  
 E2E testing para Código Facilito: valida la experiencia completa del usuario (web+app+API) con casos reales.  
